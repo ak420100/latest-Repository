@@ -1,0 +1,55 @@
+name: habit_tracker
+description: "A full-stack Flutter project with a backend for user authentication and habit tracking."
+
+publish_to: 'none' # Prevents accidental publishing
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.5.4 <4.0.0" # Updated to latest Dart SDK
+
+dependencies:
+
+  flutter:
+    sdk: flutter
+
+  # UI Libraries
+  cupertino_icons: ^1.0.8
+  fl_chart: ^0.63.0 # For habit tracking graphs
+
+  # Backend Libraries
+  shelf: ^1.2.0  # Lightweight server framework for Dart
+  shelf_router: ^1.0.0  # URL routing for Shelf
+  mongo_dart: ^0.8.0  # MongoDB database connection
+  googleapis: ^9.0.0  # Google APIs for authentication
+  googleapis_auth: ^1.0.0  # Google OAuth authentication
+  dotenv: ^4.2.0  # Load environment variables securely
+
+  # State Management & Data Storage
+  provider: ^6.0.5  # Recommended for state management
+  shared_preferences: ^2.2.0  # Persistent local storage (cache user data)
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+  # Backend Testing & Build Tools
+  build_runner: ^2.0.0
+  build_test: ^2.0.0
+  test: ^1.16.0
+
+flutter:
+  uses-material-design: true
+
+  # Add assets (for images, icons, and other resources)
+  assets:
+    - assets/images/  # Add your images here
+    - assets/fonts/  # Ensure this points to the correct path
+
+  # Custom fonts
+  fonts:
+    - family: SchuylerScript
+      fonts:
+        - asset: assets/fonts/SchuylerScriptRegular-jElM7.otf
+
