@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # habit_progress
 
 A new Flutter project.
@@ -14,3 +15,7 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+=======
+# latest-Repository
+Full stack flutter project
+>>>>>>> cb36eac06832809f58b99a329bc9e187dfbce7da
